@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: sans-serif;
     background-color: #ffbf00;
+    transition: background-color 0.3s ease;
   }
   
   .container {
@@ -80,7 +81,23 @@ body {
     width: 58.33%;
   }
   
-  @media (max-width: 992px) {
+  @media (max-width: 1199.98px) {
+    body {
+      background-color: #007bff;
+    }
+  }
+  
+  @media (max-width: 991.98px) {
+    body {
+      background-color: #28a745;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    body {
+      background-color: #dc3545;
+    }
+  
     .one-third,
     .two-third,
     .one-fourth,
